@@ -1,0 +1,7 @@
+/* for github.com */
+.team-left-column[aria-label="Explore"] {
+    display: none
+}
+.repo-language-color {
+    background-color: #e0eaef !important;
+}
