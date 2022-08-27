@@ -1,0 +1,97 @@
+/* for bandcamp.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body,
+#bio-container {
+    font-family: Inter, sans-serif;
+}
+.collected-by .deets > .writing > .text,
+.collected-by .deets > .writing a.name {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+ol.editable-grid .art img,
+.band-photo,
+.band-image.thumb,
+.tralbum-art-large,
+.collection-item-art,
+.album-art,
+.art,
+.detail-art img,
+.thumbthumb img,
+#tralbumArt img,
+.discover-detail,
+.play-button
+{
+    border-radius: 8px !important
+}
+
+.story .play-button {
+    left: 12px;
+    bottom: 16px;
+}
+#new-releases-vm .play-button {
+    left: 8px;
+    bottom: 8px;
+}
+
+#stories-vm .story-body .tralbum-art-container,
+.collection-item-art-container,
+.recommendations-container .album-art-container,
+.invertIconography #tralbumArt, 
+#tralbumArt,
+.invertIconography .thumbthumb {
+    border: none;
+    outline: none;
+}
+
+a, .pseudoLink, button {
+    color: #303a3f;
+}
+
+#pgBd {
+    border-radius: 8px
+}
+
+li.collection-item-container {
+    border-radius: 8px;
+}
+
+#curatedshows,
+#app-promo,
+#email-intake,
+#bcdaily, 
+#notable,
+.bd-section.factoid,
+.recommendations-container .second-row,
+.grids .search .search-icon {
+    display: none;
+}
+#salesfeed { margin-top: 18px }
+.salesfeed .item-inner {
+   border-radius: 8px; 
+}
+
+.collected-by .deets img.thumb {
+    border-radius: 50%
+}
+
+.grids .search .search-box {
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 8px 8px 8px;
+}
+
+input[type="text"],
+form.menubar-search input[type="text"],
+.grids .search .search-box
+{
+    font-size: 12px;
+    font-family: Consolas;
+}
+
+#stories-vm .story-sidebar .genre-image {
+    border-radius: 8px;
+}
